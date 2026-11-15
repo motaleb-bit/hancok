@@ -213,7 +213,6 @@ a {
 }
 
 .aboutrightPart p {
-   
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
@@ -238,8 +237,7 @@ a {
     transition: all linear 0.3s; 
 }
 .aboutrightPart button:hover {
-    background: #FFFFFF;
-   
+    background: #FFFFFF;  
 }
 
 .about_btn a {
@@ -343,12 +341,16 @@ a {
 
 .image_box2 img {
     width: 651px;
-    margin-top:206px;
+    margin-top:206px; 
+
 }
 
 .slide_button {
+  position: absolute;
   display: flex;
   position: relative; 
+  flex-direction: column;
+  gap: 8px;
 }
 
 .slide_right_btn i {
@@ -383,13 +385,69 @@ a {
   margin-top:-100px;
   right:40px;
 }
-
-/* .slide_button .slide_right_btn,
-.slide_button .slide_left_btn :hover {
-  border: 1px solid #ff3b4e;
-  background-color: #ff4655;
-  transition: all 0.3s ease;
-}  */
-
-
 /* //populer part end // */
+/* //live part start // */
+#livePart {
+    padding: 90px 300px 90px 300px;
+    background:#191919;
+}
+.live_header_part {
+    display: inline-flex;
+    flex-direction:column;
+    background: #121212;
+  }
+
+.live_header_part h2 {
+    font-weight: 600;
+    font-size:38px;
+    color: #FFFFFF;
+    width: 446px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: -68px; 
+    margin-top: 90px;
+}
+
+.live_header_part .shape {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live_header_part .line {
+    position: relative;
+    width: 100px;
+    height: 3px;
+    top: -33px;
+    left: -33px;
+    display: inline-block;
+    background-color: #FF4655;
+    transition: all linear 0.3s;
+}
+.image_Flex {
+    display: flex;
+    gap: 20px;
+}
+.live_card_part p {
+    font-family: Barlow Condensed;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 61px;
+}
+.delta_alpha h3 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.live_card_part img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* //live part end// */
